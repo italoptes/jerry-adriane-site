@@ -1,0 +1,128 @@
+.trust {
+  padding: var(--section-pad) 0;
+  background: var(--black-soft);
+  position: relative;
+  overflow: hidden;
+}
+
+.trust__bg-pattern {
+  position: absolute;
+  inset: 0;
+  background-image:
+          linear-gradient(rgba(201, 166, 70, 0.015) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(201, 166, 70, 0.015) 1px, transparent 1px);
+  background-size: 60px 60px;
+  pointer-events: none;
+}
+
+.trust__inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 90px;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+/* LEFT */
+.trust__left .section-title em {
+  font-style: italic;
+  color: var(--gold);
+}
+
+/* RIGHT */
+.trust__right {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+.trust__badge {
+  background: var(--black-card);
+  border: 1px solid var(--black-border);
+  border-radius: var(--radius-card);
+  padding: 30px 26px;
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  transition: all 0.35s ease;
+}
+
+.trust__badge:hover {
+  border-color: rgba(201, 166, 70, 0.3);
+  background: rgba(201, 166, 70, 0.04);
+  transform: translateY(-3px);
+}
+
+.trust__badge svg {
+  color: var(--gold);
+  flex-shrink: 0;
+  margin-top: 2px;
+  opacity: 0.9;
+}
+
+.trust__badge-title {
+  display: block;
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--white);
+  margin-bottom: 6px;
+}
+
+.trust__badge-info {
+  display: block;
+  font-size: 13px;
+  color: var(--gray-light);
+  letter-spacing: 0.5px;
+}
+
+/* CNPJ */
+.trust__cnpj {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.trust__cnpj-line {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(201,166,70,0.25));
+}
+
+.trust__cnpj-line:last-child {
+  background: linear-gradient(90deg, rgba(201,166,70,0.25), transparent);
+}
+
+.trust__cnpj-text {
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  color: var(--gray-light);
+  white-space: nowrap;
+}
+
+.trust__cnpj-text strong {
+  color: var(--gold);
+  font-weight: 500;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .trust__inner {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+}
+
+@media (max-width: 560px) {
+  .trust__right {
+    grid-template-columns: 1fr;
+  }
+
+  .trust__cnpj {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .trust__cnpj-line {
+    display: none;
+  }
+}

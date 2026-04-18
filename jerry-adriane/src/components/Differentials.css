@@ -1,0 +1,109 @@
+.differentials {
+  padding: var(--section-pad) 0;
+  background: var(--black-soft);
+  position: relative;
+}
+
+.differentials::before,
+.differentials::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(201,166,70,0.2), transparent);
+}
+
+.differentials::before { top: 0; }
+.differentials::after { bottom: 0; }
+
+.differentials__header {
+  max-width: 600px;
+  margin-bottom: 80px;
+}
+
+/* GRID */
+.differentials__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+}
+
+/* CARD */
+.differential-card {
+  padding: 48px 38px;
+  border: 1px solid var(--black-border);
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  position: relative;
+  transition: all 0.35s ease;
+  background: var(--black-card);
+}
+
+.differential-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--gold);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s ease;
+}
+
+.differential-card:hover {
+  background: rgba(201, 166, 70, 0.04);
+  border-color: rgba(201, 166, 70, 0.25);
+  transform: translateY(-4px);
+}
+
+.differential-card:hover::before {
+  transform: scaleX(1);
+}
+
+.differential-card__icon {
+  color: var(--gold);
+  opacity: 0.9;
+  transition: all 0.3s ease;
+  width: 30px;
+  height: 30px;
+}
+
+.differential-card:hover .differential-card__icon {
+  opacity: 1;
+  transform: translateY(-3px);
+}
+
+.differential-card__title {
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--white);
+  line-height: 1.3;
+}
+
+.differential-card__desc {
+  font-size: 15px;
+  font-weight: 300;
+  color: var(--gray-light);
+  line-height: 1.75;
+}
+
+@media (max-width: 900px) {
+  .differentials__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 560px) {
+  .differentials__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .differential-card {
+    padding: 34px 24px;
+  }
+}

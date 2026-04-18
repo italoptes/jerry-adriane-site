@@ -1,0 +1,151 @@
+.about {
+  padding: var(--section-pad) 0;
+  position: relative;
+  overflow: hidden;
+  background: var(--black);
+}
+
+.about__ornament {
+  position: absolute;
+  right: -10%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 500px;
+  height: 500px;
+  pointer-events: none;
+  opacity: 0.3;
+}
+
+.about__layout {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 100px;
+  align-items: start;
+}
+
+/* LEFT: YEAR */
+.about__number {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 8px;
+}
+
+.about__year {
+  font-family: var(--font-display);
+  font-size: 140px;
+  font-weight: 300;
+  line-height: 1;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(201, 166, 70, 0.5);
+  display: block;
+}
+
+.about__year-label {
+  font-size: 12px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-top: -6px;
+}
+
+.about__year-line {
+  width: 1px;
+  height: 90px;
+  background: linear-gradient(to bottom, rgba(201,166,70,0.3), transparent);
+  margin-top: 24px;
+}
+
+/* CONTENT */
+.about__content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.about__content .section-title em {
+  font-style: italic;
+  color: var(--gold);
+}
+
+.about__text {
+  font-size: 17px;
+  font-weight: 300;
+  color: var(--gray-light);
+  line-height: 2;
+  margin-bottom: 12px;
+  max-width: 640px;
+}
+
+.about__text strong {
+  color: var(--white);
+  font-weight: 500;
+}
+
+/* HIGHLIGHTS */
+.about__highlights {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-top: 20px;
+  padding-top: 32px;
+  border-top: 1px solid rgba(255,255,255,0.05);
+}
+
+.about__highlight {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.about__highlight-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--gold);
+  flex-shrink: 0;
+}
+
+.about__highlight-label {
+  display: block;
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--white);
+}
+
+.about__highlight-desc {
+  display: block;
+  font-size: 13px;
+  color: var(--gray);
+  letter-spacing: 1px;
+}
+
+@media (max-width: 768px) {
+  .about__layout {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .about__number {
+    flex-direction: row;
+    align-items: baseline;
+    gap: 16px;
+  }
+
+  .about__year {
+    font-size: 90px;
+  }
+
+  .about__year-line {
+    display: none;
+  }
+
+  .about__ornament {
+    display: none;
+  }
+
+  .about__text {
+    font-size: 16px;
+    line-height: 1.9;
+  }
+}
