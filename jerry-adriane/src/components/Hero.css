@@ -242,7 +242,7 @@
 
   .hero__stats {
     gap: 28px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
   }
 
   .hero__ctas {

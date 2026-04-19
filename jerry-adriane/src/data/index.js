@@ -3,6 +3,12 @@
 export const WHATSAPP_URL =
   'https://wa.me/5519982003342?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20um%20or%C3%A7amento';
 
+import carteiraImg from '../assets/carteira.png';
+import quadroImg from "../assets/quadro_vereador.png"
+import quadroPessoa from "../assets/quadro.png"
+import trofeu from "../assets/trofeu.png"
+import placa from "../assets/plaquinha.png"
+
 export const products = [
   {
     id: 1,
@@ -12,6 +18,7 @@ export const products = [
       'Quadros personalizados com galeria de vereadores, prefeitos e gestores públicos, produzidos com acabamento premium.',
     placeholder: '#1E1A10',
     icon: '🏛️',
+    image: quadroPessoa
   },
   {
     id: 2,
@@ -21,6 +28,7 @@ export const products = [
       'Carteiras e credenciais funcionais com identidade visual institucional, em couro e materiais nobres.',
     placeholder: '#101A1E',
     icon: '🪪',
+    image: carteiraImg
   },
   {
     id: 3,
@@ -30,6 +38,7 @@ export const products = [
       'Placas de inauguração, homenagem e identificação em inox escovado, vidro ou acrílico de alta resistência.',
     placeholder: '#1A1010',
     icon: '🏅',
+    image: quadroImg
   },
   {
     id: 4,
@@ -39,6 +48,7 @@ export const products = [
       'Letras caixa e logotipos tridimensionais em inox polido ou escovado para fachadas e ambientes internos.',
     placeholder: '#101E10',
     icon: '✦',
+    image: placa
   },
   {
     id: 5,
@@ -48,6 +58,7 @@ export const products = [
       'Desenvolvimento sob medida para demandas específicas de órgãos públicos, com consultoria e acompanhamento completo.',
     placeholder: '#1A101E',
     icon: '📐',
+    image: trofeu
   },
 ];
 

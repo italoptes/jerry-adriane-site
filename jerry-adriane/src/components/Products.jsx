@@ -52,8 +52,7 @@ export default function Products() {
                 className="product-card__image"
                 style={{ background: `linear-gradient(135deg, ${product.placeholder}, #0B0B0B)` }}
               >
-                <div className="product-card__icon">{product.icon}</div>
-                <div className="product-card__overlay" />
+                <img src={product.image} alt={product.name} className="product-card__img" />                <div className="product-card__overlay" />
                 <div className="product-card__corner product-card__corner--tl" />
                 <div className="product-card__corner product-card__corner--br" />
               </div>
