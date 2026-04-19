@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a490ca07-3310-47bc-b661-5638eb4c34fa" name="Changes" comment="feat: atualizando algumas fotos(incompleto)">
-      <change afterPath="$PROJECT_DIR$/jerry-adriane/src/assets/carteira2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jerry-adriane/src/assets/carteira3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jerry-adriane/src/assets/plaquinha2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jerry-adriane/src/assets/quadro2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jerry-adriane/src/assets/quadro_vereador2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jerry-adriane/src/assets/quadro_vereador3.png" afterDir="false" />
+    <list default="true" id="a490ca07-3310-47bc-b661-5638eb4c34fa" name="Changes" comment="feat: adicionando carousel de produtos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jerry-adriane/src/components/Products.css" beforeDir="false" afterPath="$PROJECT_DIR$/jerry-adriane/src/components/Products.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jerry-adriane/src/components/Products.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/jerry-adriane/src/components/Products.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jerry-adriane/src/data/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/jerry-adriane/src/data/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

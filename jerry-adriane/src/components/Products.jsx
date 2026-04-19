@@ -1,7 +1,8 @@
 import { useState } from "react";
-import { products } from "./index";
+import "./Products.css"
+import {products, WHATSAPP_URL} from "../data/index.js";
 
-export default function Products() {
+export default function Products({ product }) {
     return (
         <section className="products">
             <div className="products__grid">
@@ -14,10 +15,9 @@ export default function Products() {
 }
 
 function ProductCard({ product }) {
-    const images = product.images.length ? product.images : [];
+    const images = product.images?.length ? product.images : [];
     const [index, setIndex] = useState(0);
-
-    let startX = 0;
+    const [startX, setStartX] = useState(0);
 
     function next() {
         if (!images.length) return;
@@ -30,14 +30,15 @@ function ProductCard({ product }) {
     }
 
     function handleTouchStart(e) {
-        startX = e.touches[0].clientX;
+        setStartX(e.touches[0].clientX);
     }
 
     function handleTouchMove(e) {
         const diff = startX - e.touches[0].clientX;
 
-        if (diff > 50) next();
-        if (diff < -50) prev();
+        if (Math.abs(diff) > 50) {
+            diff > 0 ? next() : prev();
+        }
     }
 
     return (
@@ -46,40 +47,39 @@ function ProductCard({ product }) {
                 className="product-card__image"
                 onTouchStart={handleTouchStart}
                 onTouchMove={handleTouchMove}
-                style={{
-                    backgroundImage: images[index] ? `url(${images[index]})` : "none"
-                }}
             >
                 {images.length > 0 && (
-                    <div
-                        className="carousel__track"
-                        style={{ transform: `translateX(-${index * 100}%)` }}
-                    >
-                        {images.map((img, i) => (
-                            <img key={i} src={img} className="carousel__img" />
-                        ))}
-                    </div>
-                )}
-
-                {images.length > 1 && (
                     <>
-                        <button className="carousel__btn prev" onClick={prev}>
-                            ‹
-                        </button>
-                        <button className="carousel__btn next" onClick={next}>
-                            ›
-                        </button>
-
-                        <div className="carousel__dots">
-                            {images.map((_, i) => (
-                                <div
-                                    key={i}
-                                    className={`carousel__dot ${
-                                        i === index ? "active" : ""
-                                    }`}
-                                />
+                        <div
+                            className="carousel__track"
+                            style={{ transform: `translateX(-${index * 100}%)` }}
+                        >
+                            {images.map((img, i) => (
+                                <img key={i} src={img} className="carousel__img" />
                             ))}
                         </div>
+
+                        {images.length > 1 && (
+                            <>
+                                <button className="carousel__btn prev" onClick={prev}>
+                                    ‹
+                                </button>
+                                <button className="carousel__btn next" onClick={next}>
+                                    ›
+                                </button>
+
+                                <div className="carousel__dots">
+                                    {images.map((_, i) => (
+                                        <div
+                                            key={i}
+                                            className={`carousel__dot ${
+                                                i === index ? "active" : ""
+                                            }`}
+                                        />
+                                    ))}
+                                </div>
+                            </>
+                        )}
                     </>
                 )}
 
@@ -90,6 +90,15 @@ function ProductCard({ product }) {
             <div className="product-card__body">
                 <h3 className="product-card__name">{product.name}</h3>
                 <p className="product-card__desc">{product.description}</p>
+
+                <a
+                    href={WHATSAPP_URL|| "#"}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="product-card__cta"
+                >
+                    Solicitar orçamento →
+                </a>
             </div>
         </div>
     );
