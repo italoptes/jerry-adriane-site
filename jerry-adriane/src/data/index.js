@@ -4,10 +4,16 @@ export const WHATSAPP_URL =
   'https://wa.me/5519982003342?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20um%20or%C3%A7amento';
 
 import carteiraImg from '../assets/carteira.png';
-import quadroImg from "../assets/quadro_vereador.png"
+import carteiraImg2 from '../assets/carteira2.png';
+import carteiraImg3 from '../assets/carteira3.png';
+import quadroVerador from "../assets/quadro_vereador.png"
+import quadroVerador2 from "../assets/quadro_vereador2.png"
+import quadroVerador3 from "../assets/quadro_vereador3.png"
 import quadroPessoa from "../assets/quadro.png"
+import quadroPessoa2 from "../assets/quadro2.png"
 import trofeu from "../assets/trofeu.png"
 import placa from "../assets/plaquinha.png"
+import placa2 from "../assets/plaquinha2.png"
 
 export const products = [
   {
@@ -18,7 +24,7 @@ export const products = [
       'Quadros personalizados com galeria de vereadores, prefeitos e gestores públicos, produzidos com acabamento premium.',
     placeholder: '#1E1A10',
     icon: '🏛️',
-    image: quadroPessoa
+    images: [quadroPessoa, quadroPessoa2]
   },
   {
     id: 2,
@@ -28,7 +34,7 @@ export const products = [
       'Carteiras e credenciais funcionais com identidade visual institucional, em couro e materiais nobres.',
     placeholder: '#101A1E',
     icon: '🪪',
-    image: carteiraImg
+    images: [carteiraImg, carteiraImg2, carteiraImg3]
   },
   {
     id: 3,
@@ -38,7 +44,7 @@ export const products = [
       'Placas de inauguração, homenagem e identificação em inox escovado, vidro ou acrílico de alta resistência.',
     placeholder: '#1A1010',
     icon: '🏅',
-    image: quadroImg
+    images: [quadroVerador, quadroVerador2, quadroVerador3]
   },
   {
     id: 4,
@@ -48,7 +54,7 @@ export const products = [
       'Letras caixa e logotipos tridimensionais em inox polido ou escovado para fachadas e ambientes internos.',
     placeholder: '#101E10',
     icon: '✦',
-    image: placa
+    images: []
   },
   {
     id: 5,
@@ -58,7 +64,7 @@ export const products = [
       'Desenvolvimento sob medida para demandas específicas de órgãos públicos, com consultoria e acompanhamento completo.',
     placeholder: '#1A101E',
     icon: '📐',
-    image: trofeu
+    images: [trofeu,placa, placa2]
   },
 ];
 

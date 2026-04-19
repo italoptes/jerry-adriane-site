@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a490ca07-3310-47bc-b661-5638eb4c34fa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/jerry-adriane/src/assets/carteira.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jerry-adriane/src/assets/plaquinha.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jerry-adriane/src/assets/quadro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jerry-adriane/src/assets/quadro_vereador.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jerry-adriane/src/assets/trofeu.png" afterDir="false" />
+    <list default="true" id="a490ca07-3310-47bc-b661-5638eb4c34fa" name="Changes" comment="feat: atualizando algumas fotos(incompleto)">
+      <change afterPath="$PROJECT_DIR$/jerry-adriane/src/assets/carteira2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jerry-adriane/src/assets/carteira3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jerry-adriane/src/assets/plaquinha2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jerry-adriane/src/assets/quadro2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jerry-adriane/src/assets/quadro_vereador2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jerry-adriane/src/assets/quadro_vereador3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jerry-adriane/src/components/Hero.css" beforeDir="false" afterPath="$PROJECT_DIR$/jerry-adriane/src/components/Hero.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jerry-adriane/src/components/Products.css" beforeDir="false" afterPath="$PROJECT_DIR$/jerry-adriane/src/components/Products.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jerry-adriane/src/components/Products.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/jerry-adriane/src/components/Products.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jerry-adriane/src/data/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/jerry-adriane/src/data/index.js" afterDir="false" />
@@ -80,11 +80,25 @@
       <updated>1776517573504</updated>
       <workItem from="1776517574605" duration="6766000" />
       <workItem from="1776533177961" duration="2452000" />
-      <workItem from="1776602768508" duration="1757000" />
+      <workItem from="1776602768508" duration="1888000" />
+      <workItem from="1776632642332" duration="3435000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: atualizando algumas fotos(incompleto)">
+      <option name="closed" value="true" />
+      <created>1776606096613</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1776606096614</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: atualizando algumas fotos(incompleto)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: atualizando algumas fotos(incompleto)" />
   </component>
 </project>
