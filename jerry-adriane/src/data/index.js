@@ -14,6 +14,12 @@ import quadroPessoa2 from "../assets/quadro2.png"
 import trofeu from "../assets/trofeu.png"
 import placa from "../assets/plaquinha.png"
 import placa2 from "../assets/plaquinha2.png"
+import letra1 from "../assets/letra1.jpeg"
+import letra2 from "../assets/letra2.jpeg"
+import federal from "../assets/federal.jpeg"
+import legislativo from "../assets/legislativo.jpeg"
+import municipal from "../assets/municipal.jpeg"
+import diploma from "../assets/diploma.jpeg"
 
 export const products = [
   {
@@ -23,7 +29,6 @@ export const products = [
     description:
       'Quadros personalizados com galeria de vereadores, prefeitos e gestores públicos, produzidos com acabamento premium.',
     placeholder: '#1E1A10',
-    icon: '🏛️',
     images: [quadroPessoa, quadroPessoa2]
   },
   {
@@ -33,7 +38,6 @@ export const products = [
     description:
       'Carteiras e credenciais funcionais com identidade visual institucional, em couro e materiais nobres.',
     placeholder: '#101A1E',
-    icon: '🪪',
     images: [carteiraImg, carteiraImg2, carteiraImg3]
   },
   {
@@ -43,29 +47,35 @@ export const products = [
     description:
       'Placas de inauguração, homenagem e identificação em inox escovado, vidro ou acrílico de alta resistência.',
     placeholder: '#1A1010',
-    icon: '🏅',
     images: [quadroVerador, quadroVerador2, quadroVerador3]
   },
   {
     id: 4,
+    slug: 'projetos-personalizados',
+    name: 'Projetos Personalizados',
+    description:
+        'Desenvolvimento sob medida para demandas específicas de órgãos públicos, com consultoria e acompanhamento completo.',
+    placeholder: '#1A101E',
+    images: [trofeu, diploma, placa, placa2]
+  },
+  {
+    id: 5,
     slug: 'letras-inox',
     name: 'Letras em Inox',
     description:
       'Letras caixa e logotipos tridimensionais em inox polido ou escovado para fachadas e ambientes internos.',
     placeholder: '#101E10',
-    icon: '✦',
-    images: []
+    images: [letra2, letra1]
   },
   {
-    id: 5,
-    slug: 'projetos-personalizados',
-    name: 'Projetos Personalizados',
+    id:6,
+    slug: 'brasoes',
+    name: "Brasões Recortados",
     description:
-      'Desenvolvimento sob medida para demandas específicas de órgãos públicos, com consultoria e acompanhamento completo.',
-    placeholder: '#1A101E',
-    icon: '📐',
-    images: [trofeu,placa, placa2]
-  },
+      'Brasões institucionais recortados em chapa de inox escovado ou polido. Podem ser produzidos adesivados ou em alto relevo, com acabamento premium.',
+    placeholder: '#101E10',
+    images: [federal, legislativo, municipal]
+  }
 ];
 
 export const differentials = [

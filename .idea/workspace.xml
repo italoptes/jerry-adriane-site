@@ -4,10 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a490ca07-3310-47bc-b661-5638eb4c34fa" name="Changes" comment="feat: adicionando carousel de produtos">
+    <list default="true" id="a490ca07-3310-47bc-b661-5638eb4c34fa" name="Changes" comment="fix: ajuste nos imports">
+      <change afterPath="$PROJECT_DIR$/jerry-adriane/src/assets/diploma.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jerry-adriane/src/assets/federal.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jerry-adriane/src/assets/legislativo.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jerry-adriane/src/assets/letra1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jerry-adriane/src/assets/letra2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jerry-adriane/src/assets/municipal.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jerry-adriane/src/components/CTA.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/jerry-adriane/src/components/CTA.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jerry-adriane/src/components/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/jerry-adriane/src/components/Footer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jerry-adriane/src/components/Products.css" beforeDir="false" afterPath="$PROJECT_DIR$/jerry-adriane/src/components/Products.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jerry-adriane/src/components/Products.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/jerry-adriane/src/components/Products.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jerry-adriane/src/data/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/jerry-adriane/src/data/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +84,11 @@
       <workItem from="1776533177961" duration="2452000" />
       <workItem from="1776602768508" duration="1888000" />
       <workItem from="1776632642332" duration="3435000" />
+      <workItem from="1776638995182" duration="321000" />
+      <workItem from="1776682993152" duration="635000" />
+      <workItem from="1776685628776" duration="21000" />
+      <workItem from="1776695045277" duration="3043000" />
+      <workItem from="1776698502391" duration="1078000" />
     </task>
     <task id="LOCAL-00001" summary="feat: atualizando algumas fotos(incompleto)">
       <option name="closed" value="true" />
@@ -84,7 +98,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776606096614</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix: ajuste nos imports">
+      <option name="closed" value="true" />
+      <created>1776639193496</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1776639193497</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,6 +114,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: atualizando algumas fotos(incompleto)" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: atualizando algumas fotos(incompleto)" />
+    <MESSAGE value="fix: ajuste nos imports" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: ajuste nos imports" />
   </component>
 </project>

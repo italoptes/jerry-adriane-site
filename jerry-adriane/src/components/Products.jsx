@@ -5,10 +5,12 @@ import {products, WHATSAPP_URL} from "../data/index.js";
 export default function Products({ product }) {
     return (
         <section className="products">
-            <div className="products__grid">
-                {products.map((product) => (
-                    <ProductCard key={product.id} product={product} />
-                ))}
+            <div className="container">
+                <div className="products__grid">
+                    {products.map((product) => (
+                        <ProductCard key={product.id} product={product} />
+                    ))}
+                </div>
             </div>
         </section>
     );
