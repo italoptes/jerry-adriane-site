@@ -65,7 +65,7 @@ export const products = [
     description:
       'Letras caixa e logotipos tridimensionais em inox polido ou escovado para fachadas e ambientes internos.',
     placeholder: '#101E10',
-    images: [letra2, letra1]
+    images: [letra1, letra2]
   },
   {
     id:6,

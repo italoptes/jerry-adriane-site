@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a490ca07-3310-47bc-b661-5638eb4c34fa" name="Changes" comment="fix: ajuste nos imports">
-      <change afterPath="$PROJECT_DIR$/jerry-adriane/src/assets/diploma.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jerry-adriane/src/assets/federal.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jerry-adriane/src/assets/legislativo.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jerry-adriane/src/assets/letra1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jerry-adriane/src/assets/letra2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jerry-adriane/src/assets/municipal.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jerry-adriane/src/components/CTA.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/jerry-adriane/src/components/CTA.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jerry-adriane/src/components/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/jerry-adriane/src/components/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jerry-adriane/src/components/Products.css" beforeDir="false" afterPath="$PROJECT_DIR$/jerry-adriane/src/components/Products.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jerry-adriane/src/components/Products.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/jerry-adriane/src/components/Products.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jerry-adriane/src/data/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/jerry-adriane/src/data/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="a490ca07-3310-47bc-b661-5638eb4c34fa" name="Changes" comment="feat: adicionando brasões e fotos das letras de inox" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,7 +75,7 @@
       <workItem from="1776682993152" duration="635000" />
       <workItem from="1776685628776" duration="21000" />
       <workItem from="1776695045277" duration="3043000" />
-      <workItem from="1776698502391" duration="1078000" />
+      <workItem from="1776698502391" duration="1285000" />
     </task>
     <task id="LOCAL-00001" summary="feat: atualizando algumas fotos(incompleto)">
       <option name="closed" value="true" />
@@ -106,7 +93,23 @@
       <option name="project" value="LOCAL" />
       <updated>1776639193497</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix: corrigindo email">
+      <option name="closed" value="true" />
+      <created>1776699719651</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1776699719652</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: adicionando brasões e fotos das letras de inox">
+      <option name="closed" value="true" />
+      <created>1776699745706</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1776699745706</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +118,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: atualizando algumas fotos(incompleto)" />
     <MESSAGE value="fix: ajuste nos imports" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: ajuste nos imports" />
+    <MESSAGE value="fix: corrigindo email" />
+    <MESSAGE value="feat: adicionando brasões e fotos das letras de inox" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: adicionando brasões e fotos das letras de inox" />
   </component>
 </project>
