@@ -66,9 +66,9 @@ export default function CTA() {
               <span>reginaldolima102@outlook.com</span>
             </a>
             <span className="cta-section__separator">·</span>
-            <a href="mailto:lojaomineirogba@gmail.com" className="cta-section__email">
+            <a href="mailto:jerry-adriano10@oulook.com" className="cta-section__email">
               <EmailIcon />
-              <span>lojaomineirogba@gmail.com</span>
+              <span>jerry-adriano10@oulook.com</span>
             </a>
           </div>
 

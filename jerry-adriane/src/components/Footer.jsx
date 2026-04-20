@@ -76,7 +76,7 @@ export default function Footer() {
                 <a href="mailto:reginaldolima102@outlook.com">reginaldolima102@outlook.com</a>
               </li>
               <li>
-                <a href="mailto:lojaomineirogba@gmail.com">lojaomineirogba@gmail.com</a>
+                <a href="mailto:jerry-adriano10@oulook.com">jerry-adriano10@oulook.com</a>
               </li>
             </ul>
           </div>
